@@ -3,6 +3,6 @@ RUN mkdir /app
 ADD . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-CMD ["python", "tp_devops_api.py"]
+CMD ["python", "tp1_devops_api.py"]
 
 
